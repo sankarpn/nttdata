@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: document-qa-service
+  ai:
+    model:
+      chat: openai
+      embedding: openai
+    openai:
+      api-key: ${OPENAI_API_KEY:}
+      embedding:
+        model: text-embedding-3-small
+      chat:
+        model: gpt-5-mini
+        temperature: 0.1
+
+app:
+  documents:
+    max-size: 10MB
+    chunk-size: 600
+    chunk-overlap: 100
+  retrieval:
+    top-k: 5
+    minimum-score: 0.70
