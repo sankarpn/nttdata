@@ -124,6 +124,7 @@ Detailed reviewer documents:
 - [Architecture and engineering decisions](docs/architecture.md)
 - [Maintaining answer quality as the library grows](docs/scaling-answer-quality.md)
 - [Technical interview questions and answers](docs/interview-preparation.md)
+- [Standalone milestone prompts for rebuilding the project](docs/rebuild-milestone-prompts.md)
 
 ```text
 multipart upload
