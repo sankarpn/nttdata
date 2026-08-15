@@ -119,6 +119,11 @@ For a PDF citation, `page` contains the actual PDF page extracted by PDFBox. TXT
 
 ## Architecture
 
+Detailed reviewer documents:
+
+- [Architecture and engineering decisions](docs/architecture.md)
+- [Maintaining answer quality as the library grows](docs/scaling-answer-quality.md)
+
 ```text
 multipart upload
   -> validation and bounded byte collection
