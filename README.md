@@ -123,6 +123,7 @@ Detailed reviewer documents:
 
 - [Architecture and engineering decisions](docs/architecture.md)
 - [Maintaining answer quality as the library grows](docs/scaling-answer-quality.md)
+- [Technical interview questions and answers](docs/interview-preparation.md)
 
 ```text
 multipart upload
